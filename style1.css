@@ -1,0 +1,66 @@
+html{
+  max-width: 1400px;
+  margin: auto;
+}
+
+/* Typing Effect Title */
+.typing > *{
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typingAnim 5s steps(50);
+}
+
+@keyframes typingAnim{
+  from { width: 0 }
+  to { width: 100% }
+}
+@keyframes typingSpeak{
+  0% { width: 1em; height: .1em }
+  100% { width: 1em; height: .5em; }
+}
+
+/* Styling for Home Page */
+.home_page{
+  background-color: #77dabc;
+  color: #0b0b0b;
+}
+
+/* Styling for Navigation Bar */
+nav{
+  background-color: #0b2b22;
+  font-family: Times New Roman, serif;
+}
+
+nav a{
+  text-decoration: none;
+  border: solid 2px;
+  border-radius: 10px;
+}
+
+nav ul li a:link, nav ul li a:visited {
+  color: white;
+}
+
+nav ul li a:focus, nav ul li a:hover, nav ul li a:active {
+  color: #fff;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+nav ul li {
+  font-size: 1.0em;
+  text-transform: uppercase;
+  flex-grow: 1;
+}
+
+nav ul li a {
+  display: block;
+  padding: 1em 2em;
+  margin: .25em;
+}
