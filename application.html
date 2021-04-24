@@ -19,6 +19,92 @@
             <li> <a href="ethics.html"> Ethics </a> </li>
           </ul>
       </nav>
+
+      <header>
+        <img src="images/placeholder.jpg" alt="placeholder" height="600" width="600"/>
+        <div class="typing">
+          <h1> CRISPR Gene Editing Technology </h1>
+        </div>
+        <h2> Applications of CRISPR </h2>
+      </header>
+
+      <div class="applications_content">
+        <ul>
+          <li>
+            <!-- Trigger/Open The Modal -->
+            <button id="myBtn">
+              <img src="images/placeholder.jpg" alt="placeholder" height="400" width="400"/>
+              Treat and Cure HIV
+            </button>
+
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>Some text in the Modal..</p>
+              </div>
+
+            </div>
+
+            <script>
+              // Get the modal
+              var modal = document.getElementById("myModal");
+
+              // Get the button that opens the modal
+              var btn = document.getElementById("myBtn");
+
+              // Get the <span> element that closes the modal
+              var span = document.getElementsByClassName("close")[0];
+
+              // When the user clicks on the button, open the modal
+              btn.onclick = function() {
+              modal.style.display = "block";
+              }
+
+              // When the user clicks on <span> (x), close the modal
+              span.onclick = function() {
+              modal.style.display = "none";
+              }
+
+              // When the user clicks anywhere outside of the modal, close it
+              window.onclick = function(event) {
+              if (event.target == modal) {
+                modal.style.display = "none";
+              }
+              }
+            </script>
+          </li>
+          <li>
+            <img src="images/placeholder.jpg" alt="placeholder" height="400" width="400"/>
+            <h4> Eliminate Cancer </h4>
+          </li>
+          <li>
+            <img src="images/placeholder.jpg" alt="placeholder" height="400" width="400"/>
+            <h4> Create Malaria-Free Mosquitoes </h4>
+          </li>
+          <li>
+            <img src="images/placeholder.jpg" alt="placeholder" height="400" width="400"/>
+            <h4> Treat and Cure HIV </h4>
+          </li>
+          <li>
+            <img src="images/placeholder.jpg" alt="placeholder" height="400" width="400"/>
+            <h4> Treat and Cure HIV </h4>
+          </li>
+          <li>
+            <img src="images/placeholder.jpg" alt="placeholder" height="400" width="400"/>
+            <h4> Treat and Cure HIV </h4>
+          </li>
+        </ul>
+
+      </div>
+
+      <footer>
+        <h4> This website was created by Arshia Agrawal and Ariha Mehta. </h4>
+        <h4> Chemistry Olympics 2021 </h4>
+      </footer>
+
     </div>
   </body>
 </html>
