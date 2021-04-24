@@ -10,6 +10,7 @@
 
   <body>
     <div class="scientific_page">
+
       <nav>
           <ul>
             <li> <a href="index.html"> Home </a> </li>
@@ -19,6 +20,213 @@
             <li> <a href="ethics.html"> Ethics </a> </li>
           </ul>
       </nav>
+
+      <header>
+        <img src="images/placeholder.jpg" alt="placeholder" height="600" width="600"/>
+        <div class="typing">
+          <h1> CRISPR Gene Editing Technology </h1>
+        </div>
+        <h2> Chemistry and Scientific Mechanisms </h2>
+      </header>
+
+      <div class="scientific_content">
+        <ul class="side bar tabs">
+            <li id="tabs1" onclick="showStuff(this)">Scientific Mechanisms</li>
+            <li id="tabs2" onclick="showStuff(this)">Chemistry</li>
+        </ul>
+
+        <div id="tabs-1" class="tabContent">
+          <div class="indiv_study">
+            <div class="logo-holder">
+                <img src = "images/placeholder.jpg" alt = "Google Classroom Image" class="image"/>
+            </div>
+            <article>
+                <h2> Transforming Google Classroom to Make it Accessible for Different Learners </h2>
+                <h3> UX Case Study </h3>
+            </article>
+          </div>
+            <div class="indiv_study2">
+              <article>
+                  <h2> Launching Sidequest App For Virtual Reality </h2>
+                  <h3> Design for Virtual Reality </h3>
+              </article>
+              <div class="logo-holder">
+                  <img src = "images/placeholder.jpg" alt = "VR Museum Image" class="image"/>
+              </div>
+          </div>
+        </div>
+        <div id="tabs-2" class="tabContent">
+            <div class="entire_checklist">
+
+              <h2> Supply List </h2>
+
+              <div class="checklist_part">
+                <label class="check">One
+                  <input type="checkbox" checked="checked">
+                  <span class="checkmark"></span>
+                </label>
+
+                <label class="check">Two
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+
+                <label class="check">Three
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+
+                <label class="check">Four
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+
+                <label class="check">Five
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+
+                <label class="check">Six
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+
+                <label class="check">Seven
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+
+                <label class="check">Eight
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+
+              <div class="checklist_part">
+                <label class="check">One
+                  <input type="checkbox" checked="checked">
+                  <span class="checkmark"></span>
+                </label>
+
+                <label class="check">Two
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+
+                <label class="check">Three
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+
+                <label class="check">Four
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+
+                <label class="check">Five
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+
+                <label class="check">Six
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+
+                <label class="check">Seven
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+
+                <label class="check">Eight
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+
+              <div class="checklist_part">
+                <label class="check">One
+                  <input type="checkbox" checked="checked">
+                  <span class="checkmark"></span>
+                </label>
+
+                <label class="check">Two
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+
+                <label class="check">Three
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+
+                <label class="check">Four
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+
+                <label class="check">Five
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+
+                <label class="check">Six
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+
+                <label class="check">Seven
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+
+                <label class="check">Eight
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+            </div>
+
+            <div class="instructions">
+              <div class="list_and_title">
+                <h2> Step-by-Step Instructions </h2>
+
+                <ol>
+                  <li>Coffee</li>
+                  <li>Milk</li>
+                </ol>
+              </div>
+              <div class="instructions_images">
+                  <img src="images/placeholder.jpg" alt="placeholder" height="200" width="200"/>
+                  <img src="images/placeholder.jpg" alt="placeholder" height="200" width="200"/>
+                  <img src="images/placeholder.jpg" alt="placeholder" height="200" width="200"/>
+                  <img src="images/placeholder.jpg" alt="placeholder" height="200" width="200"/>
+                  <img src="images/placeholder.jpg" alt="placeholder" height="200" width="200"/>
+              </div>
+
+            </div>
+
+        </div>
+
+        <script>
+        function showStuff(element)  {
+          var tabContents = document.getElementsByClassName('tabContent');
+          for (var i = 0; i < tabContents.length; i++) {
+              tabContents[i].style.display = 'none';
+          }
+
+          // change tabsX into tabs-X in order to find the correct tab content
+          var tabContentIdToShow = element.id.replace(/(\d)/g, '-$1');
+          document.getElementById(tabContentIdToShow).style.display = 'block';
+        }
+        </script>
+      </div>
+
+      <footer>
+        <h4> This website was created by Arshia Agrawal and Ariha Mehta. </h4>
+        <h4> Chemistry Olympics 2021 </h4>
+      </footer>
+
     </div>
   </body>
 </html>
