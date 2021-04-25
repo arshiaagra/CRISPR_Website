@@ -1,7 +1,5 @@
 html{
-  max-width: 1400px;
-  margin: auto;
-  background-color: #bcfbe8;
+  background-color: #ffffff;
 }
 h1{
   font-size: 75px;
@@ -17,6 +15,26 @@ h4{
 }
 p{
   font-size: 24px;
+}
+.history_content{
+  max-width: 1400px;
+  margin: auto;
+}
+.scientific_content{
+  max-width: 1400px;
+  margin: auto;
+}
+.applications_content{
+  max-width: 1400px;
+  margin: auto;
+}
+.what_is_crispr{
+  max-width: 1400px;
+  margin: auto;
+}
+.ethics_content{
+  max-width: 1400px;
+  margin: auto;
 }
 
 /* Typing Effect Title */
@@ -37,7 +55,7 @@ p{
 
 /* Styling for Home Page */
 .home_page{
-  background-color: #bcfbe8;
+  background-color: #ffffff;
   color: #0b0b0b;
 }
 .what_is_crispr{
@@ -65,7 +83,7 @@ p{
 
 /* Styling for Navigation Bar */
 nav{
-  background-color: #0b2b22;
+  background-color: #3b0512;
   font-family: Times New Roman, serif;
 }
 
@@ -106,6 +124,9 @@ nav ul li a {
 /* Styling for Footer */
 footer{
   text-align: center;
+  background-color: #3b0512;
+  color: white;
+  padding: 30px;
 }
 
 /* Styling for History Page */
@@ -507,6 +528,10 @@ footer{
 .entire_checklist{
   display: flex;
   flex-direction: row;
+  box-shadow: 0 12px 16px 0 #e8c9c9, 0 17px 50px 0 #e8c9c9;
+  padding: 40px;
+  margin: 30px;
+  margin-bottom: 80px;
 }
 
 /* Styling for Lab Instructions */
@@ -569,4 +594,57 @@ footer{
   color: black;
   text-decoration: none;
   cursor: pointer;
+}
+
+/* Styling for Scientific Subtabs */
+.side_bar_tabs{
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.side_bar_tabs li{
+  background-color: #ac6c6c;
+  text-decoration: none;
+  border: solid 2px;
+  border-radius: 50px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin: 20px;
+  font-size: 25px;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  flex-grow: 1;
+  color: #ffffff;
+}
+#tabs1{
+  padding-left: 130px;
+  padding-right: 130px;
+}
+
+.scientific_content h4{
+  text-align: center;
+}
+
+/* Styling for Chemistry Lab Instructions */
+.instructions ol li{
+  font-size: 27px;
+  padding: 13px;
+}
+.instructions{
+  margin: 30px;
+  box-shadow: 0 12px 16px 0 #e8c9c9, 0 17px 50px 0 #e8c9c9;
+  padding: 40px;
+  margin-bottom: 80px;
+}
+.instructions_images{
+  background-color: #ac6c6c;
+  padding: 40px;
+}
+.instructions_images img{
+  padding-bottom: 40px;
 }
