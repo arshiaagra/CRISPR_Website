@@ -620,6 +620,7 @@ footer{
   text-transform: uppercase;
   flex-grow: 1;
   color: #ffffff;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 #tabs1{
   padding-left: 130px;
@@ -647,4 +648,45 @@ footer{
 }
 .instructions_images img{
   padding-bottom: 40px;
+}
+
+/* Styling for image overlay on hover */
+.hover_container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  box-shadow: 0 12px 16px 0 #e8c9c9, 0 17px 50px 0 #e8c9c9;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 400px;
+  width: 400px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #3b0512;
+  box-shadow: 0 12px 16px 0 #e8c9c9, 0 17px 50px 0 #e8c9c9;
+}
+
+.hover_container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
