@@ -36,6 +36,9 @@ p{
   max-width: 1400px;
   margin: auto;
 }
+header{
+  background-image: url('images/header_image.jpeg');
+}
 
 /* Typing Effect Title */
 .typing > *{
@@ -130,9 +133,6 @@ footer{
 }
 
 /* Styling for History Page */
-.history_content{
-  background-image: url('images/background_placeholder.jpeg');
-}
 /* Styling for History Slideshow */
 .slideshow-container * {box-sizing:border-box}
 
@@ -239,7 +239,6 @@ footer{
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
-  background-color: #474e5d;
   font-family: Helvetica, sans-serif;
 }
 
@@ -248,7 +247,7 @@ footer{
   content: '';
   position: absolute;
   width: 6px;
-  background-color: white;
+  background-color: #000000;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -296,9 +295,9 @@ footer{
   width: 0;
   z-index: 1;
   right: 30px;
-  border: medium solid white;
+  border: medium solid #e9cccc;
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent white;
+  border-color: transparent #e9cccc;
 }
 
 /* Add arrows to the right container (pointing left) */
@@ -310,9 +309,9 @@ footer{
   width: 0;
   z-index: 1;
   left: 30px;
-  border: medium solid white;
+  border: medium solid #e9cccc;
   border-width: 10px 10px 10px 0;
-  border-color: transparent white transparent transparent;
+  border-color: transparent #e9cccc;
 }
 
 /* Fix the circle for containers on the right side */
@@ -323,7 +322,7 @@ footer{
 /* The actual content */
 .content {
   padding: 20px 30px;
-  background-color: white;
+  background-color: #e9cccc;
   position: relative;
   border-radius: 6px;
 }
