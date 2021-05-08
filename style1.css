@@ -101,29 +101,9 @@ header h1{
   font-size: 54px;
   margin-left: 10px;
 }
-
-/* header img{
-  max-width: 100%;
+header h2{
+  font-size: 40px;
 }
-
-header h1{
-  top: 20%;
-  position: absolute;
-  text-align: center;
-  left: 7%;
-}
-
-header h3{
-  top: 40%;
-  position: absolute;
-  left: 23.5%;
-}
-
-header h4{
-  top: 50%;
-  position: absolute;
-  left: 32%;
-} */
 
 /* Styling for Home Page */
 .home_page{
@@ -147,9 +127,10 @@ header h4{
   text-align: center;
 }
 .what_is_crispr aside{
-  margin:25px;
+  margin:30px;
   padding:30px;
-  margin-top: 160px;
+  margin-top: 110px;
+  margin-right: 50px;
   width: 40%;
 }
 
@@ -674,6 +655,9 @@ footer{
 .applications_content ul li text{
   text-align: left;
 }
+.applications_content h4{
+  text-align: center;
+}
 
 /* Styling for Scientific Subtabs */
 .side_bar_tabs{
@@ -763,7 +747,7 @@ footer{
   background-color: rgba(0,0,0,0.0);
   font-size: 16px;
   position: absolute;
-  top: 40%;
+  top: 41%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -777,6 +761,15 @@ footer{
   margin: 50px;
 }
 .ethics_blurb h4{
+  text-align: center;
+}
+.immediate_concern_blurb{
+  margin: 50px;
+  padding: 30px;
+  background-color: #e9cccc;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.immediate_concern_blurb h2{
   text-align: center;
 }
 
