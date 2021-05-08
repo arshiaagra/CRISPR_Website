@@ -20,7 +20,7 @@ h4{
   font-size: 28px;
 }
 p{
-  font-size: 24px;
+  font-size: 20px;
 }
 .history_content{
   max-width: 1400px;
@@ -91,7 +91,7 @@ header{
   text-align: center;
   margin-top: -40px;
   height: 400px;
-  margin-bottom: 90px;
+  margin-bottom: 50px;
   border: #3b0512;
   border-width: 2px 2px;
 }
@@ -446,12 +446,28 @@ footer{
   font-style: italic;
 }
 .timeline p{
-  font-size: 20px;
+  font-size: 18px;
 }
 
 /* Styling for Scientific Subtabs */
 .tabContent {
     display:none;
+}
+
+/* Styling for Scientific Blurb */
+.scientific_blurb{
+  margin: 50px;
+  padding: 30px;
+  background-color: #e9cccc;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.scientific_blurb h2{
+  text-align: center;
+}
+.scientific_cartoon img{
+  margin-left: 200px;
+  margin-bottom: 30px;
+  box-shadow: none;
 }
 
 /* Styling for Scientific Mechanisms ZigZag */
@@ -562,7 +578,7 @@ footer{
   padding-left: 35px;
   margin-bottom: 12px;
   cursor: pointer;
-  font-size: 22px;
+  font-size: 20px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -696,7 +712,7 @@ footer{
 
 /* Styling for Chemistry Lab Instructions */
 .instructions ol li{
-  font-size: 27px;
+  font-size: 25px;
   padding: 13px;
 }
 .instructions{
@@ -744,6 +760,7 @@ footer{
 
 .text {
   color: white;
+  background-color: rgba(0,0,0,0.0);
   font-size: 16px;
   position: absolute;
   top: 40%;
@@ -761,4 +778,9 @@ footer{
 }
 .ethics_blurb h4{
   text-align: center;
+}
+
+.hover_container .text{
+  top: -5%;
+  width: 390px;
 }
