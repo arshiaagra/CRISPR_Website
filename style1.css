@@ -55,10 +55,6 @@ p{
   font-size: 14px;
 }
 
-header{
-  background-image: url('images/header_image.jpeg');
-}
-
 /* Typing Effect Title */
 .typing > *{
   overflow: hidden;
