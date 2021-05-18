@@ -777,3 +777,17 @@ footer{
   top: -5%;
   width: 390px;
 }
+
+/* Styling for Citations Box */
+.citations_box{
+  margin: 25px;
+  padding: 30px;
+  background-color: #e9cccc;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.citations_box h4{
+  text-align: center;
+}
+.citations_box li{
+  font-size: 20px;
+}
